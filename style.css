@@ -1,0 +1,14 @@
+/* Add your styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+#propertyList {
+    margin-top: 20px;
+}

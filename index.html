@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Search</title>
+    <!-- Add links to your CSS stylesheets or include styles here -->
+</head>
+<body>
+    <!-- Property Search Form -->
+    <div>
+        <label for="location">Location:</label>
+        <select id="location">
+            <!-- Populate this dropdown dynamically from the backend -->
+        </select>
+
+        <label for="availableDate">Available from date:</label>
+        <input type="date" id="availableDate">
+
+        <label for="priceRange">Price range:</label>
+        <input type="range" id="priceRange" min="0" max="1000">
+        <span id="priceOutput">0</span>
+
+        <label for="propertyType">Property type:</label>
+        <select id="propertyType">
+            <!-- Populate this dropdown dynamically from the backend -->
+        </select>
+
+        <button onclick="fetchProperties()">Search Properties</button>
+    </div>
+
+    <!-- Property Listing Section -->
+    <div id="propertyList">
+        <!-- Properties will be displayed here -->
+    </div>
+
+    <!-- Add links to your JavaScript scripts here -->
+</body>
+</html>
